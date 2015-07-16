@@ -1,0 +1,62 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>braincandy - desarrollo web</title>
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="assets/tuktuk/tuktuk.css">
+    <link rel="stylesheet" href="assets/tuktuk/tuktuk.theme.braincandy.css">
+    <!-- TUKTUK.WIDGETS -->
+    <link rel="stylesheet" href="assets/tuktuk/tuktuk.icons.css">
+    <style>
+
+        section.landing input {
+            border-radius: 1px 0px 0px 1px !important;
+            height: 48px;}
+
+        section.landing button {
+            border-radius: 0px 1px 1px 0px !important;
+            height: 48px;}
+
+        .button.large, button.large {
+            font-size: 1.3em;}
+
+        footer.padding{ padding:50px !important; }
+        .no-wordspacing{word-spacing: -0.55em;}
+    </style>
+    <!--Analytics-->
+</head>
+<body>
+
+    <section class="bck theme landing text center">
+        <div class="row">
+            <div class="column_10 offset_1">
+                <img src="assets/images/braincandy.png" alt="Braincandy">
+                <h1 class="no-wordspacing">brain candy</h1>
+                <h2 class="margin-bottom">¿Ten&eacute;s un proyecto que quer&eacute;s llevar a cabo?</h2>
+            </div>
+        </div>
+        <div class="row">
+            <form class="column_6 offset_3 form subscribe" action="//formspree.io/braincandy.webdev+contact@gmail.com" method="POST">
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="email" id="mail" class="large" placeholder="Correo Electr&oacute;nico" name="_replyto">
+                <button type="submit" class="button large icon envelope"></button>
+            </form>
+        </div>
+        <h5 class="text book">Dejanos tu correo electr&oacute;nico</h5>
+    </section>
+
+    <footer class="padding align center text small bck light">
+        <div class="row">
+            <div class="offset_1 column_10">
+                <smalL>Hecho con <span class="icon heart"></span> y <span class="icon coffee"></span> desde Buenos Aires, Argentina.</smalL>
+            </div>
+        </div>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="assets/tuktuk/tuktuk.js"></script>
+</body>
+</html>
